@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="w-full px-4 sm:py-12">
+    <div className="min-h-screen flex items-center justify-center px-4 py-4">
       <div className="max-w-sm sm:max-w-md w-full mx-auto bg-gray-900 rounded-2xl shadow-md overflow-hidden">
         <Info />
         <About />

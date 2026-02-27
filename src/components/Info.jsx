@@ -2,12 +2,12 @@ import { Icon } from '@iconify/react'
 export default function Info() {
   return (
     <div className="text-center">
-      <img src="/esther.jpg" alt="Esther" className="w-full h-96 object-top object-cover rounded-t-2xl" />
+      <img src="/esther.jpg" alt="Esther" className="w-full h-72 sm:h-96 object-top object-cover rounded-t-2xl" />
 
       <div className="bg-black p-6">
-        <h1 className="text-white text-3xl font-bold mb-2">Esther Fakeye</h1>
-        <p className="text-purple-400 text-sm mb-2">Frontend Developer</p>
-        <p className="text-gray-400 text-xs mb-4">esthercodes.com</p>
+        <h1 className="text-white text-3xl font-bold mb-1 sm:text-4xl">Esther Fakeye</h1>
+        <p className="text-purple-400 text-sm mb-1">Frontend Developer</p>
+        <p className="text-gray-400 text-xs mb-2 sm:text-sm">esthercodes.com</p>
 
          <a 
             href="mailto:your.fakeyeesther04@gmail.com"

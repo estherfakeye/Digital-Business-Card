@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react'
 
 export default function Footer() {
   return (
-    <footer className="bg-black px-4 sm:px-6 py-5 sm:py-6 rounded-b-2xl">
+    <footer className="bg-black px-4 sm:px-6 py-5 sm:py-6 rounded-b-2xl border-t border-purple-800">
       <div className="flex justify-center gap-4 sm:gap-6">
         <a 
           href="https://twitter.com/yourhandle" 
