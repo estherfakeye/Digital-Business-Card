@@ -2,7 +2,7 @@ import { Icon } from '@iconify/react'
 export default function Info() {
   return (
     <div className="text-center">
-      <img src="/esther.jpg" alt="Esther" className="w-full h-72 sm:h-96 object-top object-cover rounded-t-2xl" />
+      <img src="/Esther.jpg" alt="Esther" className="w-full h-72 sm:h-96 object-top object-cover rounded-t-2xl" />
 
       <div className="bg-black p-6">
         <h1 className="text-white text-3xl font-bold mb-1 sm:text-4xl">Esther Fakeye</h1>
