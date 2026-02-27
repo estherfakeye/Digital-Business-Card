@@ -1,16 +1,63 @@
-# React + Vite
+# Digital Business Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive digital business card built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clean, professional design with black and purple theme
+- Fully responsive (mobile, tablet, desktop)
+- Smooth hover effects on social icons
+- Fast loading with Vite
+- Deployed on Vercel
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 7 (rolldown-vite)
+- Tailwind CSS 4
+- Iconify Icons
 
-## Expanding the ESLint configuration
+## 📱 Sections
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Info**: Profile photo, name, title, website, and email contact
+- **About**: Professional summary
+- **Interests**: Personal interests and hobbies
+- **Footer**: Social media links (Twitter, Facebook, Instagram, LinkedIn, GitHub)
+
+## 🌐 Live Demo
+
+[View Live Site](https://esther-card.vercel.app/)
+
+## 💻 Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/estherfakeye/digital-business-card.git
+cd digital-business-card
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📦 Build for Production
+```bash
+npm run build
+```
+
+## 👤 Author
+
+**Esther Fakeye**
+- GitHub: [@estherfakeye](https://github.com/estherfakeye)
+
+## 📝 License
+
+This project is open source and available under the MIT License.
